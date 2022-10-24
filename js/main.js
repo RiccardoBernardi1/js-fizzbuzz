@@ -11,5 +11,4 @@ for (let i = 1; i<=100;i++){
         console.log(i);
     }
 }
-
 // 3. Creare un elemento in html per ogni numero e inserirci il numero o la stringa corrispondente
