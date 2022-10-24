@@ -6,8 +6,10 @@
 }
 /* COMMON */
 .container{
-    max-width: 75rem;
+    max-width: 84.375rem;
     margin:auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 body{
     background-color: #083B4C;
@@ -20,4 +22,24 @@ h1{
 }
 header{
     padding: 3.75rem;
+}
+/* MAIN */
+.container div{
+    height: 9.375rem;
+    width: 9.375rem;
+    background-color: #1389B2;
+    text-align: center;
+    line-height: 9.375rem;
+    margin: 1.25rem;
+    font-size: 1.5625rem;
+    font-weight: bold;
+}
+.container .fizz{
+    background-color: #0CD6A1;
+}
+.container .buzz{
+    background-color: #FFD166;
+}
+.container .fizzbuzz{
+    background-color: #F0466F;
 }
